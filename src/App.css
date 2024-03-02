@@ -36,3 +36,18 @@
     transform: rotate(360deg);
   }
 }
+
+
+.border {
+  border: 2px solid #6b6b6b;
+  padding: 10px 10px;
+}
+
+.border + .border {
+  margin-top: 10px;
+}
+
+.dark{
+  color: #fff;
+  background-color: #333;
+}
